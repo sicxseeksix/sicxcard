@@ -6,8 +6,7 @@ it's not fully working, still need ur lucky chance.
 ```bash
 $ git clone https://github.com/sicxseeksix/sicxcard.git
 $ cd sicxcard
-$ chmod +x *
-$ bash sicxcard.sh | $ ./sicxcard.sh
+$ bash sicxcard.sh
 ```
 ### Development by
 
