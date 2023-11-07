@@ -24,7 +24,7 @@ Version	: 6.6.6
 Note    : GO F YOURSELF!
 DMYH    : $date\n";
 
-==================================\n";
+"\n==================================\n";
 "Count    : ";
 $count = trim(fgets(STDIN,1024));
 "Delay    : ";
