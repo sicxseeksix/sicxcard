@@ -38,9 +38,9 @@ echo $bold . $cyan .
 
 echo $red . "\nCARD INFORMATION\n";
 echo $bold . $yellow . 
-		"\nE-mail		: ".$matches[1][10]."".
+		"\nE-mail			: ".$matches[1][10]."".
 		"\nCard Number		: [".str_replace(" ", "", $matches[1][14])."]".
-		"\nCVV		: [".$matches[1][16]."]".
+		"\nCVV			: [".$matches[1][16]."]".
 		"\nExp. Date		: [".$matches[1][15]."]";
 	sleep($sleep);
 }
