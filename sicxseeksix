@@ -17,8 +17,7 @@ echo $red . "
 \____\__,_|_|  \__,__|
 
 ";
-echo $blue . "==================================";
-echo $bold . $green . 
+echo "=================================="; 
 "\n
 Coder   : php.Script Code
 Author		: sicxseeksix
@@ -26,7 +25,7 @@ Version 	: 6.6.6
 Note: 
 GO F YOURSELF! \n";
 echo $bold . $green . "DMYH    : $date\n";
-echo $blue . "==================================\n";
+echo "==================================\n";
 echo $bold . $red . "Count      : ";
 $count = trim(fgets(STDIN,1024));
 echo $bold . $white . "Delay      : ";
