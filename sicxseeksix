@@ -34,9 +34,8 @@ echo $red . "\nMORE INFORMATION\n";
 echo $bold . $cyan . 
 "\nName		: ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."".
 "\nAddress		: ".$matches[1][8]."".
-"\nPhone		: ".$matches[1][9]."";
-"\n"
-"\n"
+"\nPhone		: ".$matches[1][9]."\n";
+
 echo $red . "\nCARD INFORMATION\n";
 echo $bold . $yellow . 
 		"\nE-mail		: ".$matches[1][10]."".
