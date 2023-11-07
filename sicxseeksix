@@ -28,17 +28,19 @@ $sleep = trim(fgets(STDIN,1024));
 for($x = 0; $x < $count; $x++){
 $str = file_get_contents("http://namegenerators.org/fake-name-generator-us/");
 $var = '/<div class="col2">(.*?)<\/div>/s';
-preg_match_all($var, $str, $matches);                           
-echo $red . "\n                 MORE INFORMATION                \n";
+preg_match_all($var, $str, $matches);  
+
+echo $red . "\nMORE INFORMATION\n";
 echo $bold . $cyan . 
-"\n [name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]\n".
-"\n[address : ".$matches[1][8]."]\n".
-"\n[phone : ".$matches[1][9]."]\n";
-echo $red . "\n                 CARD INFORMATION                \n";
-echo $bold . $yellow . "\n[email : ".$matches[1][10]."]\n".
-		"\n[card number : ".str_replace(" ", "", $matches[1][14])."]\n".
-		"\n[cvv : ".$matches[1][16]."]\n".
-		"\n[exp-date : ".$matches[1][15]."]\n";
+"\n[name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]".
+"\n[address : ".$matches[1][8]."]".
+"\n[phone : ".$matches[1][9]."]";
+
+echo $red . "\nCARD INFORMATION";
+echo $bold . $yellow . "[email : ".$matches[1][10]."]".
+		"\n[card number : ".str_replace(" ", "", $matches[1][14])."]".
+		"\n[cvv : ".$matches[1][16]."]".
+		"\n[exp-date : ".$matches[1][15]."]";
 	sleep($sleep);
 }
 ?>
