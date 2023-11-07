@@ -17,11 +17,13 @@ echo $red . "
 \____\__,_|_|  \__,__|
 
 ";
+"\n
 Coder   : php.Script Code
 Author	: sicxseeksix
 Version	: 6.6.6
-Note    : GO F YOURSELF! \n";
+Note    : GO F YOURSELF!
 DMYH    : $date\n";
+
 ==================================\n";
 "Count    : ";
 $count = trim(fgets(STDIN,1024));
