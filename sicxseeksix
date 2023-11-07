@@ -1,11 +1,12 @@
 <?php
 /*Color*/
-$green = "\033[92m";
-$red = "\033[91m";
-$cyan = "\033[36m";
-$yellow = "\033[93m";
-$bold = "\033[5m";
-$white = "\033[0m";
+$green = "\033[37m";
+$blue = "\033[37m";
+$red = "\033[37m";
+$cyan = "\033[37m";
+$yellow = "\033[37m";
+$bold = "\033[37m";
+$white = "\033[37m";
 /*Form*/
 $date   = date('d-M-Y H:i');
 //system("clear");
@@ -17,7 +18,8 @@ echo $red . "
 \____\__,_|_|  \__,__|
 
 ";
-echo "=================================="; 
+echo $blue . "==================================";
+echo $bold . $green . 
 "\n
 Coder   : php.Script Code
 Author		: sicxseeksix
@@ -25,7 +27,7 @@ Version 	: 6.6.6
 Note: 
 GO F YOURSELF! \n";
 echo $bold . $green . "DMYH    : $date\n";
-echo "==================================\n";
+echo $blue . "==================================\n";
 echo $bold . $red . "Count      : ";
 $count = trim(fgets(STDIN,1024));
 echo $bold . $white . "Delay      : ";
