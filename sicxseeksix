@@ -15,11 +15,10 @@ echo $red . "
 echo $blue . "==================================";
 echo $bold . $green . 
 "\n
-Coder   : php.Script Code
+Coder       : php.Script Code
 Author		: sicxseeksix
 Version 	: 6.6.6
-Note: 
-GO F YOURSELF! \n";
+Note        : GO F YOURSELF! \n";
 echo $bold . $green . "DMYH    : $date\n";
 echo $blue . "==================================\n";
 echo $bold . $red . "Count      : ";
