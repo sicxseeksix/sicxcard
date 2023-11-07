@@ -15,15 +15,15 @@ echo $red . "
 echo $blue . "==================================";
 echo $bold . $green . 
 "\n
-Coder       : php.Script Code
+Coder		: php.Script Code
 Author		: sicxseeksix
 Version 	: 6.6.6
-Note        : GO F YOURSELF! \n";
-echo $bold . $green . "DMYH    : $date\n";
+Note		: GO F YOURSELF! \n";
+echo $bold . $green . "DMYH		: $date\n";
 echo $blue . "==================================\n";
-echo $bold . $red . "Count      : ";
+echo $bold . $red . "Count		: ";
 $count = trim(fgets(STDIN,1024));
-echo $bold . $white . "Delay      : ";
+echo $bold . $white . "Delay		: ";
 $sleep = trim(fgets(STDIN,1024));
 for($x = 0; $x < $count; $x++){
 $str = file_get_contents("http://namegenerators.org/fake-name-generator-us/");
